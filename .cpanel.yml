@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /usr/bin/env bash deployscript.sh 2>&1 >> ~/log-err.txt
